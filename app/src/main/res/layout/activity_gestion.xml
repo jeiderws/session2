@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    tools:context=".gestion">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="190dp"
+        app:srcCompat="@drawable/baseline_calendar_month_24" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        tools:listitem="@layout/reutilizarx2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="170dp"
+        android:text="From :"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="195dp"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="170dp"
+        android:text="To :"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230sp"
+        android:layout_marginTop="190dp"
+        android:ems="10"
+        android:inputType="date" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="35dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="376dp"
+        android:layout_marginTop="190dp"
+        app:srcCompat="@drawable/baseline_calendar_month_24" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="100dp"
+        android:text="on the wekend :"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="30dp"
+        android:text="on the holidays :" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="150dp"
+        android:text="on other days  :" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"></NumberPicker>
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"></NumberPicker>
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"></NumberPicker>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="100dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="30dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="120dp"
+        android:text="Set price " />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="51dp"
+        android:layout_height="52dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/baseline_login_24" />
+
+</FrameLayout>
